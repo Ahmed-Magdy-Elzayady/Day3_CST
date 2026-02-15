@@ -100,7 +100,7 @@ body {
     background-color: #f2f2f2;
     padding: 80px 0;
     width: 100%;
-    margin-bottom: 250px;
+    margin-bottom: 350px;
 }
 
 .description .container {
@@ -158,4 +158,15 @@ body {
   -moz-transition:0.5s ;
   -ms-transition:0.5s ;
   -o-transition:0.5s ;
+}
+
+/*---------------------------------*/
+.image-sec .container {
+    width: 75%;
+    margin-left: 18%;
+}
+.image-sec .container .left {
+  clear: both;
+  display: inline-block;
+  width: 30%;
 }
