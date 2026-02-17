@@ -112,8 +112,7 @@ body {
   cursor: pointer;
 }
 
-.image-sec{
-  
+.image-sec {
 }
 .image-sec .container {
   display: flex;
@@ -121,16 +120,15 @@ body {
   align-items: center;
   gap: 20px;
 }
-.image-sec .container .left{
-    max-width: min-content;
+.image-sec .container .left {
+  max-width: min-content;
 }
 
-hr#special{
+hr#special {
   width: 80%;
   margin: auto;
-    margin-bottom: 130px;
-    margin-top: 130px;
-
+  margin-bottom: 130px;
+  margin-top: 130px;
 }
 .featured .container h1 {
   margin-bottom: 80px;
@@ -143,21 +141,20 @@ hr#special{
 }
 
 .featured .container .exp-father .exp h3 {
-margin-bottom: 20px;
-color: #4b4a4a;
+  margin-bottom: 20px;
+  color: #4b4a4a;
 }
 
-.featured .container .exp-father .exp p{
-  word-spacing:3px;
+.featured .container .exp-father .exp p {
+  word-spacing: 3px;
   line-height: 1.3;
   color: #555454be;
 }
 
-.news{
-
+.news {
   margin-bottom: 250px;
 }
-.news .container .row{
+.news .container .row {
   display: flex;
   gap: 0px;
 }
@@ -165,7 +162,7 @@ color: #4b4a4a;
 .news .container .row .image span {
   font-size: 15px;
   font-weight: bold;
-color: #4b4a4a;
+  color: #4b4a4a;
 }
 .news .container .row .image img {
   width: 500px;
@@ -185,4 +182,65 @@ footer {
   background-color: #333;
   width: 100%;
   height: 500px;
+position: relative;
+}
+/* footer .top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 60px;
+} */
+footer .logo .container .top
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .logo .container .top h4 ,
+footer .logo .container .top .cont p{
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+footer a {
+  color: #fff;
+
+}
+
+footer ul {
+  list-style-type: disc;
+}
+footer .list{
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 20px;
+}
+
+footer .list ul#right{
+  display: flex;
+}
+
+footer .list ul#right li{
+ display: inline-block;
+ padding-right: 15px  ;
+ 
 }
