@@ -79,6 +79,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 130px;
 }
 .description .container .left p {
   width: 40%;
@@ -109,4 +110,79 @@ body {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   cursor: pointer;
+}
+
+.image-sec{
+  
+}
+.image-sec .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.image-sec .container .left{
+    max-width: min-content;
+}
+
+hr#special{
+  width: 80%;
+  margin: auto;
+    margin-bottom: 130px;
+    margin-top: 130px;
+
+}
+.featured .container h1 {
+  margin-bottom: 80px;
+}
+.featured .container .exp-father {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.featured .container .exp-father .exp h3 {
+margin-bottom: 20px;
+color: #4b4a4a;
+}
+
+.featured .container .exp-father .exp p{
+  word-spacing:3px;
+  line-height: 1.3;
+  color: #555454be;
+}
+
+.news{
+
+  margin-bottom: 250px;
+}
+.news .container .row{
+  display: flex;
+  gap: 0px;
+}
+
+.news .container .row .image span {
+  font-size: 15px;
+  font-weight: bold;
+color: #4b4a4a;
+}
+.news .container .row .image img {
+  width: 500px;
+}
+
+.news .container .row h3 {
+  font-size: 40px;
+}
+
+.news hr {
+  width: 80%;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+footer {
+  background-color: #333;
+  width: 100%;
+  height: 500px;
 }
